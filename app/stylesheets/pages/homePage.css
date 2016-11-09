@@ -1,285 +1,71 @@
-.container-fluid {
-  width: 100%;
-  height: 100%;
-  min-width: 50px;
+* {
   margin: 0;
-  padding: 0;
 }
-.homeImage{
-	width: 100%;
-	height: 1000px;
-	/*position: fixed; */
+html, body {
+  height: 100%;
+  
 }
-/* All navigation bar CSS*/
+
+h1,h2, h3, h4, h5,h6, p {
+  margin bottom: 20px;
+}
+
 nav {
-	position: absolute;
-	float: right;
-	top: 930px;
-	left: 450px;
-	font-family: "Cabin Sketch";
-	font-size: 2em;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background-color: rgba(0,0,0,.5);
+  z-index: 99;
+  font-family: Helvetica;
+  color: white;
+   display: flex;
+  flex-wrap: wrap;
 }
 ul {
-	display: flex;
-	flex-wrap: wrap;
-	color: white;
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
 }
 li {
-		padding: 20px;
+    padding: 20px;
 /* All block elements*/
 }
-.block1 {
-    min-height: 350px;
-    background-color: #c7bd77;
-}
-.block2 {
-    min-height: 350px;
-    background-color: #6b6f6e;
-}
-.block3 {
-    min-height: 350px;
-    background-color: #209273;
-}
-.block4 {
-    min-height: 350px;
-    background-color: #6b6f6e;
-}
-.block5 {
-    min-height: 350px;
-    background-color: #145541;
-}
-.block6 {
-    min-height: 350px;
-    background-color: #22201f;
-}
-.block7 {
-    min-height: 350px;
-    background-color: #91E1AF;
-}
-.block8{
-	min-height: 350px;
-  background-color: #145541;
-}
-.block9 {
-    min-height: 350px;
-    background-color: #262322;
-}
-.block10 {
-    min-height: 350px;
-    background-color: #145541;
-}
-.block11 {
-    min-height: 350px;
-    background-color: #767a79;
-}
-.block12 {
-    min-height: 350px;
-    background-color: #22201f;
-}
-/* resetting some default paddings & margins*/
-.col-sm-3 {
-	padding: 0;
-}
-.row {
-	margin: 0;
-}
-.col-sm-12{
-	padding: 0;
-}
-/* Images */
-.planeImage {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-}
-.cameraImage {
-	position: absolute;
-	height: 145px;
-	top: 85px;
-	left: 140px;
-}
-.jsImage {
-	position: absolute;
-	height: 200px;
-	top: 65px;
-	left: 120px;
-}
-.emblemImage {
-	position: absolute;
-	height: 255px;
-	top: 45px;
-	left: 85px;
-}
-/* Text styles*/
-.contactMe {
-	position: absolute;
-	top: 220px;
-	left: 135px;
-	color: #29A68B;
-	font-size: 4em;
-	font-family: "Cabin Sketch";
-}
-.welcome1 {
-	font-family: "Cabin Sketch";
-	color:	#262322;
-	font-size: 5em;
-	position: absolute;
-	top: 25px;
-	left: 30px;
-}
-.welcome2 {
-	font-family: "Cabin Sketch";
-	color:	#262322;
-	font-size: 5em;
-	position: absolute;
-	top: 95px;
-	left: 30px;
-}
-.welcome3 {
-	font-family: "Cabin Sketch";
-	color:	#262322;
-	font-size: 5em;
-	position: absolute;
-	top: 150px;
-	left: 30px;
+
+.sect {
+  height: 100%;
+  width: 100%;
+  background-color: grey;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
 }
 
-.aboutMe1 {
-	font-family: "Cedarville Cursive";
-	color:	white;
-	font-size: 5em;
-	position: absolute;
-	top: 140px;
-	left: 88px;
-	font-style: oblique;
+.container {
+  display:flex;
+  border: 10px solid black;
+  height: 50%;
+ width: 100vw;
 }
+.subSectionOne {
+  height: 50%;
+  background-color: orange;
+  display: flex;
+  flex-direction: row;
+}
+.sectOne {
+  background-image: url('https://img0.etsystatic.com/000/0/5254040/il_fullxfull.177183954.jpg');
+   display: flex;
+  flex-wrap: wrap;
+}
+.sectTwo {
+    background-image: url('http://www.minnarossi.com/images/cr4.jpg')
+}
+.subSectionTwo {
+  height: 50%;
+  background-color: yellow;
+}
+.sectThree {
+    background-image: url('https://ztanksley.files.wordpress.com/2008/11/img_2688_21.jpg')
 
-.photographyText {
-	position: absolute;
-	top: 210px;
-	left: 100px;
-	color: #373737;
-	font-size: 5em;
-	font-family: "Patrick Hand SC";
 }
-.designWork {
-	position: absolute;
-	top: 248px;
-	left: 235px;
-	color: #29A68B;
-	font-size: 2.75em;
-	font-family: "helvetica";
-}
-.codingText {
-	position: absolute;
-	top: 240px;
-	left: 155px;
-	color: #04110B;
-	font-size: 2em;
-	font-family: "cursive";
-}
-.pageTitle {
-	position: absolute;
-	top: 240px;
-	left: 555px;
-	color: white;
-	font-size: 12em;
-	font-family: "Cabin Sketch";
-}
-.pageTitleSub {
-	position: absolute;
-	top: 375px;
-	left: 640px;
-	color: white;
-	font-size: 4em;
-	font-family: "Cabin Sketch";
-}
-/* Animation below this line */
-.codingText {
-    display: inline-block;
-    position: relative;
-    padding-bottom: 3px;
-}
-.codingText:after {
-    content: '';
-    display: block;
-    margin: auto;
-    height: 3px;
-    width: 0px;
-    background: transparent;
-    transition: width .5s ease, background-color .5s ease;
-}
-.codingText:hover:after {
-    width: 100%;
-    background: black;
-}
-.aboutMe1 {
-    display: inline-block;
-    position: relative;
-    padding-bottom: 3px;
-}
-.aboutMe1:after {
-    content: '';
-    display: block;
-    margin: auto;
-    height: 3px;
-    width: 0px;
-    background: transparent;
-    transition: width .5s ease, background-color .5s ease;
-}
-.aboutMe1:hover:after {
-    width: 100%;
-    background: white;
-}
-.contactMe {
-    display: inline-block;
-    position: relative;
-    padding-bottom: 3px;
-}
-.contactMe:after {
-    content: '';
-    display: block;
-    margin: auto;
-    height: 3px;
-    width: 0px;
-    background: transparent;
-    transition: width .5s ease, background-color .5s ease;
-}
-.contactMe:hover:after {
-    width: 100%;
-    background: #29A68B;
-}
-.designWork{
-    display: inline-block;
-    position: relative;
-    padding-bottom: 3px;
-}
-.designWork:after {
-    content: '';
-    display: block;
-    margin: auto;
-    height: 3px;
-    width: 0px;
-    background: transparent;
-    transition: width .5s ease, background-color .5s ease;
-}
-.designWork:hover:after {
-    width: 100%;
-    background: #29A68B;
-}
-
-.photographyText:after {
-    content: '';
-    display: block;
-    margin: auto;
-    height: 3px;
-    width: 0px;
-    background: transparent;
-    transition: width .5s ease, background-color .5s ease;
-}
-.photographyText:hover:after {
-    width: 100%;
-    background: black;
-}
-  
-
