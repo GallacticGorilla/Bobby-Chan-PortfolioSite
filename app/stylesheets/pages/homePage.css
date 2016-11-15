@@ -11,20 +11,28 @@ h1,h2, h3, h4, h5,h6, p {
 }
 
 nav {
-  position: fixed;
+  position: relative;
   width: 100%;
   height: 50px;
-  background-color: rgba(0,0,0,.5);
+  background-color: #2E2E2E;
   z-index: 99;
   font-family: Helvetica;
-  color: white;
+  color: #F85258;
+  font-weight: 900;
    display: flex;
   flex-wrap: wrap;
+  font-family: Cabin Sketch;
+  font-size: calc(0.6vw + 6px);
+}
+nav ul {
+  margin: 0 auto;
+}
+nav a {
+  color: #F85258;
 }
 ul {
   display: flex;
   flex-wrap: wrap;
-  color: white;
 }
 li {
     padding: 20px;
@@ -34,38 +42,213 @@ li {
 .sect {
   height: 100%;
   width: 100%;
-  background-color: grey;
+  background-color: #2E2E2E;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 
 }
+.sectA {
+  height: 100%;
+  width: 100%;
+  background-color: #2E2E2E;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 
+}
 .container {
   display:flex;
-  border: 10px solid black;
-  height: 50%;
- width: 100vw;
-}
-.subSectionOne {
-  height: 50%;
-  background-color: orange;
-  display: flex;
+  flex-wrap: wrap;
+  height: 25vh;
+  background-color: black;
+  width: 100vw;
   flex-direction: row;
+  padding: 0px;
 }
 .sectOne {
-  background-image: url('https://img0.etsystatic.com/000/0/5254040/il_fullxfull.177183954.jpg');
-   display: flex;
-  flex-wrap: wrap;
+  background-image: url('/media/gorilla.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+   /*display: flex;
+  flex-wrap: wrap;*/
+}
+.subSectionOne {
+  height: 110%;
+
+}
+
+.subSectionTwo {
+  height: 85%;
+  background-color: #F85258;
 }
 .sectTwo {
     background-image: url('http://www.minnarossi.com/images/cr4.jpg')
 }
-.subSectionTwo {
-  height: 50%;
-  background-color: yellow;
-}
 .sectThree {
     background-image: url('https://ztanksley.files.wordpress.com/2008/11/img_2688_21.jpg')
+}  
+.subSectionThree {
+  height: 45%;
+  background-color: grey;
+}
+.sectFour {
+    background-image: url('http://www.clickinmoms.com/blog/wp-content/uploads/2012/09/beautiful-food-photography-tips-by-Allison-Jacobs.jpg')
+}
+.subSectionFour {
+  height: 25%;
+  background-color: grey;
+}
+.subSectionFive {
+  height: 25%;
+  background-color: grey;
+}
+.sectFive {
+    background-image: url('https://ztanksley.files.wordpress.com/2008/11/img_2688_21.jpg')
+}
+.aboutMe {
+  position: relative;
+  top: 40%;
+  left: 20%;
+  color: white;
+  font-family: Cedarville Cursive;
+  font-size: 4em;
+}
+.mePhoto{
+  background-image: url('/media/me.png');
+  position: absolute;
+  height: 177px;
+  width: 200px;
+  margin-left: -50px;
+  top: 110%;
+  left: 50%;
+  z-index: 99;
+  background-repeat: no-repeat;
 
 }
+.bio {
+  position: relative;
+  top: 2%;
+  left: 10%;
+  color: black;
+  font-family: Roboto;
+}
+.aboutMe:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+.aboutMe:hover:after {
+    width: 100%;
+    background: grey;
+}
+.webDev {
+  top: 50px;
+  left: 500px;
+  color: white;
+  font-family: Cedarville Cursive;
+}
+.webDev:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+.webDev:hover:after {
+    width: 100%;
+    background: grey;
+}
+.designOne {
+  top: 50px;
+  left: 500px;
+  color: white;
+  font-family: Cedarville Cursive;
+}
+.designOne:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+.designOne:hover:after {
+    width: 100%;
+    background: grey;
+}
+.photography {
+  top: 50px;
+  left: 500px;
+  color: white;
+  font-family: Cedarville Cursive;
+}
+.photography:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+.photography:hover:after {
+    width: 100%;
+    background: grey;
+}
+.blockA {
+  height: 100% ;
+  width: 50%;
+  background-color: #F85258 ;
+}
+.blockB {
+  height: 100% ;
+  width: 50%;
+  background-color: white ;
+}
+
+.block1 {
+  height: 100% ;
+  width: 50%;
+  background-color: white ;
+}
+.block2 {
+  height: 100% ;
+  width: 50%;
+  background-color: grey ;
+}
+/*.block3 {
+  height: 100% ;
+  width: 25%;
+  background-color: #F85258 ;
+}
+.block4 {
+  height: 100% ;
+  width: 25%;
+  background-color: #2E2E2E ;
+}*/
+
+@media (max-width: 500px){
+  .block{
+    width: 100vw;
+    height: 50%;
+  }
+};
+@media (min-height: 500px){
+  .nav{
+    display: none;
+  }
+};
+@media (min-width: 500px){
+  .mePhoto{
+    display: none;
+  }
+};

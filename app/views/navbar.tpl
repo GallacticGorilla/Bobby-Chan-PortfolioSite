@@ -1,17 +1,17 @@
 <ul> 
 	<li>
-		<a href="/pages/todo.html">About Me</a>
+		<a href="/pages/todo.html">WEB DEV</a>
 	</li>
 	<li>
-		<a href="/pages/bb_todo.html">Web Dev</a>
+		<a href="/pages/bb_todo.html">DESIGN/PHOTOGRAPHY</a>
 	</li>
 	<li>
-		<a href="/pages/multimedia.html">Design</a>
+		<a href="/pages/multimedia.html">CONTACT</a>
 	</li>
-	<li>
+	<!-- <li>
 		<a href="/pages/newProject.html">Photography</a>
-	</li>
-	<li>
+	</li> -->
+	<!-- <li>
 		<a href="/pages/canvas.html">Contact</a>
 	</li>
 	<li>
@@ -22,5 +22,5 @@
 	</li>
 	<li>
 		<a href="/">Home Page</a>
-	</li>
+	</li> -->
 </ul>	
