@@ -10,6 +10,9 @@ h1,h2, h3, h4, h5,h6, p {
   margin bottom: 20px;
   overflow: hidden;
 }
+body {
+  overflow-x: hidden;
+}
 
 nav {
   position: absolute;
@@ -23,7 +26,7 @@ nav {
    display: flex;
   flex-wrap: wrap;
   font-family: Cabin Sketch;
-  font-size: calc(0.6vw + 6px);
+  font-size: calc(0.8vw + 7.5px);
 }
 nav ul {
   margin: 0 auto;
@@ -36,7 +39,7 @@ ul {
   flex-wrap: wrap;
 }
 li {
-    padding: 20px;
+    padding: 10px;
 /* All block elements*/
 }
 
@@ -102,7 +105,7 @@ li {
 }
 .subSectionFive {
   height: 45%;
-  background-color: grey;
+  background-color: #2E2E2E;
 }
 .sectFive {
     background-image: url('https://ztanksley.files.wordpress.com/2008/11/img_2688_21.jpg')
@@ -113,7 +116,7 @@ li {
   left: 25%;
   color: black;
   font-family: 'Engagement', cursive;
-  font-size: calc(7.2vw + 6px);
+  font-size: calc(3.6vw + 41px);
    -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: #2E2E2E;
 }
@@ -134,7 +137,7 @@ li {
   left: 10%;
   color: black;
   font-family: helvetica; 
-  font-size: calc(0.6vw + 6px);
+  font-size: calc(1.0vw + 4px);
   overflow: hidden;
   word-wrap: break-word;
 
@@ -145,33 +148,67 @@ li {
    position: relative;
   top: 20%;
   left: 5%;
+  width: 80%;
   font-stretch: expanded;
-  font-size: calc(1.6vw + 6px);
+  font-size: calc(1.5vw + 6px);
 }
 .webDev {
  position: relative;
-  top: 30%;
+  top: 38%;
   left: 0%;
   color: white;
   font-family: 'Bungee Inline', cursive;
-  font-size: calc(6.2vw + 6px);
+  font-size: calc(3.7vw + 6px);
 }
 .jsProjects {
  position: relative;
+ width: 80%;
+ height: calc(1.8vw + 66px);
   top: 10%;
   left: 10%;
   color: white;
   font-family: 'Bungee Hairline', cursive;
-  font-size: calc(3.2vw + 6px);
+  font-size: calc(1.2vw + 26px);
   border: dotted;
 }
 .gitHub {
  position: relative;
-  top: 30%;
+  top: 25%;
   left: 60%;
   color: white;
   font-family: 'Bungee Hairline', cursive;
-  font-size: calc(3.2vw + 6px);
+  font-size: calc(0.8vw + 16px);
+}
+.designText {
+ position: relative;
+ width: 80%;
+ height: 50%;
+  top: 10%;
+  left: 10%;
+  color: black;
+  font-family: 'Bungee Hairline', cursive;
+  font-size: calc(0.3vw + 26px);
+}
+.photoText {
+ position: relative;
+ width: 80%;
+ height: 50%;
+  top: 10%;
+  left: 10%;
+  color: black;
+  font-family: 'Bungee Hairline', cursive;
+  font-size: calc(0.1vw + 24px);
+}
+
+.photoImage {
+ position: relative;
+ width: 80%;
+ height: 30%;
+  top: 10%;
+  left: 10%;
+  color: white;
+  font-family: 'Bungee Hairline', cursive;
+  font-size: calc(1.2vw + 6px);
 }
 
 .webDev:after {
@@ -187,16 +224,7 @@ li {
     width: 100%;
     background: white;
 }
-.designOne {
-  position: relative;
-  top: 40%;
-  left: 25%;
-  color: #F85258;
-  font-family: Cedarville Cursive;
-  font-size: calc(3.2vw + 6px);
-
-}
-.designOne:after {
+.gitHub:after {
     content: '';
     display: block;
     margin: auto;
@@ -205,29 +233,53 @@ li {
     background: transparent;
     transition: width .5s ease, background-color .5s ease;
 }
-.designOne:hover:after {
+.gitHub:hover:after {
+    width: 100%;
+    background: white;
+}
+.designOne {
+  position: relative;
+  top: 30%;
+  left: 10%;
+  color: #F85258;
+  font-family: Cedarville Cursive;
+  font-size: calc(3.2vw + 16px);
+
+}
+.designText:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+.designText:hover:after {
     width: 100%;
     background: grey;
 }
+.photoText:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+.photoText:hover:after {
+    width: 100%;
+    background: grey;
+}
+
 .photography {
   top: 50px;
   left: 500px;
   color: white;
   font-family: Cedarville Cursive;
 }
-.photography:after {
-    content: '';
-    display: block;
-    margin: auto;
-    height: 3px;
-    width: 0px;
-    background: transparent;
-    transition: width .5s ease, background-color .5s ease;
-}
-.photography:hover:after {
-    width: 100%;
-    background: grey;
-}
+
 .blockA {
   height: 100% ;
   width: 30%;
@@ -281,16 +333,15 @@ li {
   width: 25%;
   background-color: black;
 }
-
 @media (max-width: 500px){
   .block{
     width: 100vw;
-    height: 70vh;
+    height: 55vh;
   }
-};
-@media (min-width: 500px){
   .blockHidden {
    display: none;
   }
+  .mePhoto {
+   display: none;
+  }
 };
-

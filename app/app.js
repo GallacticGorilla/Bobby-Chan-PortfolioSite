@@ -54,7 +54,9 @@ $(function(){
   }
 
   console.log ('+++======+++');
-  console.log ('Yo, Hire me');
+  console.log ('THANKS FOR LOOKING!');
+  console.log ('Call me @ 727');
+
   
 });
 
