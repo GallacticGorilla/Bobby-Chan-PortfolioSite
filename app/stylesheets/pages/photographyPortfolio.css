@@ -1,0 +1,25 @@
+header {
+  height: 10vw;
+}
+body {
+  background-color: rgba(0, 5, 0, 0.61)
+}
+/* parent entire slideshow div
+*/
+.carousel {
+  height: 50vw;
+  width: 100vw;
+
+}
+/*inner slide show div
+*/
+/*.carousel-inner {
+  height: 50vw;
+  width: 400px;
+}*/
+.left {
+
+}
+.right {
+
+}

@@ -1,13 +1,14 @@
-<ul> 
+<ul>
+	<li>
+		<a href="/">HOME</a>
+	</li>  
 	<li>
 		<a href="/pages/todo.html">WEB DEV</a>
 	</li>
 	<li>
-		<a href="/pages/bb_todo.html">DESIGN</a>
+		<a href="/pages/designPortfolio.html">DESIGN</a>
 	</li>
 	<li>
-		<a href="/pages/multimedia.html">PHOTOGRAPHY</a>
+		<a href="/pages/photographyPortfolio.html">PHOTOGRAPHY</a>
 	</li>
-	<li>
-		<a href="/">HOME</a>
-	</li> </ul>	
+</ul>	

@@ -150,7 +150,7 @@ li {
   left: 5%;
   width: 80%;
   font-stretch: expanded;
-  font-size: calc(1.5vw + 6px);
+  font-size: calc(1.vw + 6px);
 }
 .webDev {
  position: relative;
@@ -174,10 +174,21 @@ li {
 .gitHub {
  position: relative;
   top: 25%;
-  left: 60%;
+  left: 50%;
+  width: 75%;
+
   color: white;
   font-family: 'Bungee Hairline', cursive;
   font-size: calc(0.8vw + 16px);
+}
+.codePen {
+ position: relative;
+  top: 20%;
+  left: 10%;
+  width: 30%;
+  color: white;
+  font-family: 'Bungee Hairline', cursive;
+  font-size: calc(0.6vw + 13px);
 }
 .designText {
  position: relative;
@@ -235,7 +246,7 @@ li {
 }
 .gitHub:hover:after {
     width: 100%;
-    background: white;
+    background: grey;
 }
 .designOne {
   position: relative;
@@ -259,7 +270,7 @@ li {
     width: 100%;
     background: grey;
 }
-.photoText:after {
+.codePen:after {
     content: '';
     display: block;
     margin: auto;
@@ -268,7 +279,7 @@ li {
     background: transparent;
     transition: width .5s ease, background-color .5s ease;
 }
-.photoText:hover:after {
+.codePen:hover:after {
     width: 100%;
     background: grey;
 }

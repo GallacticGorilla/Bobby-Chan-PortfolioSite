@@ -17,6 +17,8 @@ import bbTodoController from './pages/bb_todo';
 import homePageController from './pages/homePage';
 import photoSearchController from './pages/photoSearch';
 import rTodoController from './pages/r_todo';
+import designPortfolioController from './pages/designPortfolio';
+import photographyPortfolioController from './pages/photographyPortfolio';
 
 
 //import multimediaController from './pages/multimedia';
@@ -51,11 +53,17 @@ $(function(){
   case '/pages/r_todo.html':
     new rTodoController();
     break;
+  case '/pages/designPortfolio.html':
+    designPortfolioController.init();
+    break;
+  case '/pages/photographyPortfolio.html':
+    photographyPortfolioController.init();
+    break;
   }
 
   console.log ('+++======+++');
   console.log ('THANKS FOR LOOKING!');
-  console.log ('Call me @ 727');
+  console.log ('Contact me @ 727-***-****');
 
   
 });
